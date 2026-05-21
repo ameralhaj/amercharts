@@ -1,0 +1,50 @@
+{
+  "name": "amercharts",
+  "version": "0.1.0",
+  "description": "Modern React chart components with soft gradients, elegant tooltips, and copy-ready free examples.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Amercharts",
+  "homepage": "https://amercharts.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amercharts/amercharts.git"
+  },
+  "keywords": [
+    "react",
+    "charts",
+    "dataviz",
+    "dashboard",
+    "visualization"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "d3": "^7.9.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.0"
+  }
+}
