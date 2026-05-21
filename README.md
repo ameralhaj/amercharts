@@ -42,8 +42,7 @@ export function DashboardCard() {
 
 Amercharts Pro includes advanced bars, market charts, distribution charts, network views, timeline charts, radial charts, and more.
 
-Price: 199 EUR lifetime, including updates.
-
+Ceck amercharts.com
 ## License
 
 MIT for the Free package.
